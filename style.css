@@ -79,3 +79,15 @@ span {
   font-size: 30px;
   font-weight: 600;
 }
+
+.reset_btn {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #0ccd43;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

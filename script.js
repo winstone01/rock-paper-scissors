@@ -38,4 +38,18 @@ function checker ( input )
 
   document.getElementById( "computer_score" ).innerHTML = computer_score;
   document.getElementById( "user_score" ).innerHTML = user_score;
+
+  function resetGame() {
+  userScore = 0;
+  computerScore = 0;
+
+  userScoreText.textContent = userScore;
+  computerScoreText.textContent = computerScore;
+
+  userChoiceText.textContent = "Make your move";
+  computerChoiceText.textContent = "Waiting...";
+  resultText.textContent = "First to 10?";
+  }
+  
+  resetBtn.addEventListener("click", resetGame);
 }
