@@ -1,2 +1,4 @@
-# rock-paper-scissors
-index.html with the game layout and buttons script.js handling the random computer choice, score updates, and win/lose/tie logic style.css giving it the centred card, gradient background, round buttons, and hover effect
+Rock Paper Scissors Game
+A browser-based game built with HTML, CSS, and JavaScript. The player chooses rock, paper, or scissors, while the computer generates a random choice. The game compares both moves, displays the result, and updates the score in real time.
+
+Skills shown: DOM manipulation, JavaScript logic, random selection, score tracking, event handling, CSS layout, UI styling.
